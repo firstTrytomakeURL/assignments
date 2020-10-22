@@ -1,0 +1,56 @@
+body{
+	background-color:green;
+	color: black;
+}
+#header{
+	background-color: purple;
+	position: relative;
+}
+
+.icon-bar{
+	background-color: yellow;
+}
+a:hover{
+	color: green;
+}
+
+
+#nav-list{
+	margin-top: 10px;
+	font-size: 1.6em;
+	color: yellow;
+	text-align: center;
+
+}
+
+
+#button{
+	position: absolute;
+	top:0;
+	right: 0;
+	border: 2px solid yellow;
+}
+h2 {
+	text-align: center;
+}
+#main{
+	background-color: grey;
+	border:2px solid darkred;
+	width: 97%;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+h3{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+@media(max-width: 767px){
+	#main{
+		width: 300px;
+	}
+
+	
+}
